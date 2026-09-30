@@ -1,13 +1,82 @@
+/* ========================================
+   GLOBAL RESET
+======================================== */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* ========================================
+   HTML
+======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ========================================
+   BODY
+======================================== */
+
+html,
+body,
+#root {
+  width: 100%;
+
+  min-height: 100%;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+
+  background-color: #000000;
+
+  color: #ffffff;
+
+  font-family:
+    Arial,
+    Helvetica,
     sans-serif;
+
   -webkit-font-smoothing: antialiased;
+
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* ========================================
+   BUTTONS / INPUTS
+======================================== */
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+
+/* ========================================
+   LINKS
+======================================== */
+
+a {
+  color: inherit;
+}
+
+
+/* ========================================
+   SELECTION
+======================================== */
+
+::selection {
+  background-color: #e50914;
+
+  color: #ffffff;
 }

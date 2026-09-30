@@ -1,6 +1,114 @@
+/* ========================================
+   APP
+======================================== */
+
+.app {
+  min-height: 100vh;
+
+  background-color: #000000;
+
+  color: #ffffff;
+}
 
 
-*ä{
-  margin:0%;
-  padding:0%;
+/* ========================================
+   MAIN
+======================================== */
+
+.main-content {
+  min-height: 700px;
+
+  padding-top: 68px;
+
+  background-color: #000000;
+}
+
+
+/* ========================================
+   PHASE 1 CONTENT
+======================================== */
+
+.phase-one-content {
+  min-height: 700px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  justify-content: center;
+
+  padding:
+    80px
+    5%;
+
+  box-sizing: border-box;
+}
+
+
+.phase-label {
+  margin-bottom: 15px;
+
+  color: #e50914;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+.phase-one-content h1 {
+  margin: 0 0 18px;
+
+  font-size:
+    clamp(
+      42px,
+      7vw,
+      76px
+    );
+
+  line-height: 1.05;
+
+  font-weight: 800;
+}
+
+
+.phase-one-content p {
+  margin: 0;
+
+  color: #b3b3b3;
+
+  font-size:
+    clamp(
+      18px,
+      2vw,
+      24px
+    );
+
+  line-height: 1.5;
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 750px) {
+
+  .main-content {
+    padding-top: 60px;
+  }
+
+
+  .phase-one-content {
+    min-height: 600px;
+
+    padding:
+      60px
+      25px;
+  }
+
 }
